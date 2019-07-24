@@ -8,11 +8,11 @@ This repository contains the mobile version instagram clone project.
 - Reuse some components of recact web on react native. 
 
 # Project done
-![](.instagram.gif)
+![](instagram.gif)
 
 
 ## Final thoughts
-After doing some small stuff just to know how react native works, it was my first "big" React Native project. It was a very cool and exciting projectl. React native is at my list of must-know technologies :blush:	
+After doing some small stuff just to know how react native works, it was my first "big" React Native project. It was a very cool and exciting project. React native is at my list of must-know technologies :blush:	
 
 ## Special thanks
 A special thanks to [@Diego](https://github.com/diego3g) for sharing this awesome content and knowledge.
