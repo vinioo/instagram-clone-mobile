@@ -8,7 +8,7 @@ This repository contains the mobile version instagram clone project.
 - Reuse some components of recact web on react native. 
 
 # Project done
-![](.gifs/palette.gif)
+![](.instagram.gif)
 
 
 ## Final thoughts

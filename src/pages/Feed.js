@@ -39,7 +39,7 @@ export default class Feed extends Component {
     }
 
     registerToSocket = () => {
-        const socket = io('http://10.0.3.2:3000');
+        const socket = io('http://10.0.3.2:3002');
 
         socket.on('post', newPost => {
             this.setState({ feed: [newPost, ...this.state.feed] });
@@ -79,7 +79,7 @@ export default class Feed extends Component {
                             <Image
                                 style={styles.feedImage}
                                 source={{
-                                    uri: `http://10.0.3.2:3000/files/${
+                                    uri: `http://10.0.3.2:3002/files/${
                                         item.image
                                     }`
                                 }}
@@ -144,7 +144,7 @@ const styles = StyleSheet.create({
     },
     feedImage: {
         width: '100%',
-        height: 400,
+        height: 280,
         marginVertical: 15
     },
     feedItemFooter: {
